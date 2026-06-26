@@ -1,0 +1,18 @@
+.post-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:16px}
+.post-head{display:flex;gap:10px;margin-bottom:10px}
+.post-avatar{width:36px;height:36px;border-radius:50%;background:var(--color-accent);color:var(--color-accent-light);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;flex-shrink:0}
+.post-meta{flex:1}.post-meta-top{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.post-username{font-size:13px;font-weight:600;color:var(--color-text-primary);text-decoration:none}.post-username:hover{text-decoration:underline}
+.post-direction{font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px}
+.post-direction.long{background:var(--color-green-light);color:var(--color-green)}.post-direction.short{background:var(--color-red-light);color:var(--color-red)}
+.post-instrument{font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px}
+.post-time{font-size:11px;color:var(--color-text-tertiary);margin-top:2px}.post-session{text-transform:capitalize}
+.post-body{font-size:13px;color:var(--color-text-secondary);line-height:1.65;margin-bottom:12px;white-space:pre-wrap}
+.post-chart-image{width:100%;border-radius:var(--radius-md);margin-bottom:12px;object-fit:cover;max-height:300px}
+.post-stats{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.post-stat{background:var(--color-bg);border-radius:var(--radius-sm);padding:6px 10px;flex:1;min-width:56px}
+.post-stat-label{font-size:10px;color:var(--color-text-tertiary);text-transform:uppercase;letter-spacing:.04em}
+.post-stat-val{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-top:2px}
+.post-actions{display:flex;gap:4px;padding-top:10px;border-top:1px solid var(--color-border)}
+.action-btn{display:flex;align-items:center;gap:5px;font-size:13px;color:var(--color-text-secondary);background:none;border:none;padding:5px 10px;border-radius:var(--radius-sm);transition:all .15s}
+.action-btn:hover{background:var(--color-bg);color:var(--color-text-primary)}.action-btn.upvoted{color:var(--color-accent);font-weight:500}.action-btn:disabled{opacity:.6;cursor:not-allowed}

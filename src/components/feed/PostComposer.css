@@ -1,0 +1,27 @@
+.composer{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:14px 16px;display:flex;flex-direction:column;gap:12px}
+.composer-top{display:flex;gap:10px;align-items:flex-start}
+.composer-avatar{width:36px;height:36px;border-radius:50%;background:var(--color-accent);color:var(--color-accent-light);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;flex-shrink:0;margin-top:2px}
+.composer-textarea{flex:1;border:none;outline:none;resize:none;font-size:14px;color:var(--color-text-primary);background:transparent;line-height:1.55}
+.composer-textarea::placeholder{color:var(--color-text-tertiary)}
+.composer-preview{position:relative;border-radius:var(--radius-md);overflow:hidden;max-height:200px}
+.composer-preview img{width:100%;object-fit:cover;display:block}
+.composer-remove-img{position:absolute;top:8px;right:8px;background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:50%;width:24px;height:24px;font-size:12px;display:flex;align-items:center;justify-content:center}
+.composer-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;padding:10px 12px;background:var(--color-bg);border-radius:var(--radius-md)}
+.composer-stat-field{display:flex;flex-direction:column;gap:4px}
+.composer-stat-field label{font-size:10px;font-weight:500;color:var(--color-text-tertiary);text-transform:uppercase;letter-spacing:.04em}
+.composer-stat-field input,.composer-stat-field select{padding:6px 8px;border:1px solid var(--color-border);border-radius:var(--radius-sm);font-size:13px;background:var(--color-surface);color:var(--color-text-primary);outline:none}
+.composer-stat-field input:focus,.composer-stat-field select:focus{border-color:var(--color-accent)}
+.composer-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-top:8px;border-top:1px solid var(--color-border);flex-wrap:wrap}
+.composer-controls{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.composer-instrument-group,.composer-dir-group{display:flex;gap:3px}
+.composer-inst{font-size:11px;font-weight:500;padding:3px 9px;border-radius:20px;border:1px solid var(--color-border);background:none;color:var(--color-text-secondary);transition:all .15s}
+.composer-inst:hover{background:var(--color-bg)}.composer-inst.active{border-color:transparent}
+.composer-dir{font-size:11px;font-weight:500;padding:3px 9px;border-radius:20px;border:1px solid var(--color-border);background:none;color:var(--color-text-secondary);transition:all .15s}
+.composer-dir.active-long{background:var(--color-green-light);color:var(--color-green);border-color:transparent}
+.composer-dir.active-short{background:var(--color-red-light);color:var(--color-red);border-color:transparent}
+.composer-tool{background:none;border:none;font-size:16px;padding:4px 6px;border-radius:var(--radius-sm);color:var(--color-text-secondary);transition:background .15s}
+.composer-tool:hover,.composer-tool.active{background:var(--color-bg)}
+.composer-right{display:flex;align-items:center;gap:10px;margin-left:auto}
+.composer-char{font-size:11px;color:var(--color-text-tertiary)}.composer-error{font-size:12px;color:var(--color-red)}
+.composer-submit{font-size:13px;font-weight:500;padding:7px 18px;border-radius:20px;background:var(--color-accent);color:var(--color-accent-light);border:none;transition:opacity .15s}
+.composer-submit:hover:not(:disabled){opacity:.88}.composer-submit:disabled{opacity:.5;cursor:not-allowed}

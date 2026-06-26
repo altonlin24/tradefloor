@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+button{cursor:pointer;font:inherit}textarea,input{font:inherit}
+:root{
+  --font-sans:'Inter',system-ui,sans-serif;
+  --color-bg:#f7f7f6;--color-surface:#ffffff;--color-border:#e5e4e0;
+  --color-text-primary:#1a1a18;--color-text-secondary:#5c5c57;--color-text-tertiary:#9b9b94;
+  --color-accent:#185FA5;--color-accent-light:#E6F1FB;
+  --color-green:#3B6D11;--color-green-light:#EAF3DE;
+  --color-red:#A32D2D;--color-red-light:#FCEBEB;
+  --radius-sm:6px;--radius-md:10px;--radius-lg:14px;
+}
+html,body,#root{height:100%}
+body{font-family:var(--font-sans);background:var(--color-bg);color:var(--color-text-primary);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.app-layout{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
+.app-main{display:flex;justify-content:center;padding:24px 16px}
+.app-loading{display:flex;align-items:center;justify-content:center;height:100vh;color:var(--color-text-tertiary);font-size:14px}
+.badge-NQ{background:#EEEDFE;color:#3C3489}.badge-ES{background:#E6F1FB;color:#0C447C}
+.badge-GC{background:#FAEEDA;color:#633806}.badge-SI{background:#F1EFE8;color:#444441}
+.text-green{color:var(--color-green)}.text-red{color:var(--color-red)}

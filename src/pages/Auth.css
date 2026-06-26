@@ -1,0 +1,16 @@
+.auth-page{min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--color-bg);padding:24px}
+.auth-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:36px;width:100%;max-width:380px}
+.auth-logo{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.auth-logo-icon{font-size:22px;color:var(--color-accent)}.auth-logo-name{font-size:20px;font-weight:600;letter-spacing:-0.4px}
+.auth-tagline{font-size:13px;color:var(--color-text-tertiary);margin-bottom:28px}
+.auth-tabs{display:flex;gap:4px;background:var(--color-bg);border-radius:var(--radius-md);padding:4px;margin-bottom:24px}
+.auth-tab{flex:1;padding:8px;border:none;background:none;border-radius:var(--radius-sm);font-size:13px;font-weight:500;color:var(--color-text-secondary);transition:all .15s}
+.auth-tab.active{background:var(--color-surface);color:var(--color-text-primary);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.auth-form{display:flex;flex-direction:column;gap:16px}
+.auth-field{display:flex;flex-direction:column;gap:6px}
+.auth-label{font-size:12px;font-weight:500;color:var(--color-text-secondary)}
+.auth-input{padding:10px 12px;border:1px solid var(--color-border);border-radius:var(--radius-sm);font-size:14px;background:var(--color-surface);color:var(--color-text-primary);outline:none;transition:border-color .15s}
+.auth-input:focus{border-color:var(--color-accent)}
+.auth-error{font-size:13px;color:var(--color-red);background:var(--color-red-light);border-radius:var(--radius-sm);padding:10px 12px}
+.auth-submit{padding:11px;background:var(--color-accent);color:var(--color-accent-light);border:none;border-radius:var(--radius-sm);font-size:14px;font-weight:500;margin-top:4px;transition:opacity .15s}
+.auth-submit:hover:not(:disabled){opacity:.9}.auth-submit:disabled{opacity:.6;cursor:not-allowed}
